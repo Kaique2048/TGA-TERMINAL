@@ -1,0 +1,39 @@
+{
+    "vendedores": [
+        {
+            "CODIGO": 11,
+            "NOME": "KAIQUE",
+            "DATA_CADASTRO": "22/09/2026 00:10:01"
+        },
+        {
+            "CODIGO": 22,
+            "NOME": "ADAO",
+            "DATA_CADASTRO": "22/09/2026 00:16:01"
+        },
+        {
+            "CODIGO": 33,
+            "NOME": "LEONARDO",
+            "DATA_CADASTRO": "22/09/2026 00:17:18"
+        },
+        {
+            "CODIGO": 44,
+            "NOME": "HELIO",
+            "DATA_CADASTRO": "22/09/2026 00:19:19"
+        },
+        {
+            "CODIGO": 55,
+            "NOME": "RODRIGO",
+            "DATA_CADASTRO": "22/09/2026 00:21:41"
+        },
+        {
+            "CODIGO": 66,
+            "NOME": "ROBERT",
+            "DATA_CADASTRO": "23/09/2026 20:05:49"
+        },
+        {
+            "CODIGO": 20,
+            "NOME": "L",
+            "DATA_CADASTRO": "23/09/2026 20:45:14"
+        }
+    ]
+}
