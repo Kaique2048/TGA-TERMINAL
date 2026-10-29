@@ -1,0 +1,19 @@
+{
+    "vendedores": [
+        {
+            "CODIGO": 522,
+            "NOME": "KAIQUE EUZEBIO",
+            "DATA_CADASTRO": "01/10/2026 10:53:19"
+        },
+        {
+            "CODIGO": 231,
+            "NOME": "RODRIGO REGIS",
+            "DATA_CADASTRO": "01/10/2026 16:55:10"
+        },
+        {
+            "CODIGO": 251,
+            "NOME": "ADAO PEDRO",
+            "DATA_CADASTRO": "01/10/2026 17:44:40"
+        }
+    ]
+}

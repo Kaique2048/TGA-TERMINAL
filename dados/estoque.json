@@ -1,0 +1,58 @@
+{
+    "cadastro": [
+        {
+            "ID": "01",
+            "NOME": "CABO 2,50MM",
+            "ESTOQUE": 725,
+            "PRECO": 3.1
+        },
+        {
+            "ID": "02",
+            "NOME": "CABO 4,00MM",
+            "ESTOQUE": 500,
+            "PRECO": 5.1
+        },
+        {
+            "ID": "03",
+            "NOME": "CABO 6,00MM",
+            "ESTOQUE": 1500,
+            "PRECO": 7.5
+        },
+        {
+            "ID": "04",
+            "NOME": "CABO PARARELO 2X1,5MM",
+            "ESTOQUE": 2200,
+            "PRECO": 5.99
+        },
+        {
+            "ID": "05",
+            "NOME": "CABO PARARELO 2X2,50MM",
+            "ESTOQUE": 1000,
+            "PRECO": 8.5
+        },
+        {
+            "ID": "06",
+            "NOME": "LUMINARIA DE MESA",
+            "ESTOQUE": 57,
+            "PRECO": 62.6
+        },
+        {
+            "ID": "07",
+            "NOME": "ABAJUR DE MESA",
+            "ESTOQUE": 0,
+            "PRECO": 71.6
+        },
+        {
+            "ID": "08",
+            "NOME": "WAGO LINHA RETA",
+            "ESTOQUE": 0,
+            "PRECO": 3.13
+        },
+        {
+            "ID": "09",
+            "NOME": "WAGO 3 SAIDA",
+            "ESTOQUE": 0,
+            "PRECO": 2.46
+        }
+    ]
+}

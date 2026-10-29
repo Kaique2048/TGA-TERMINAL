@@ -2,17 +2,23 @@ import json
 import msvcrt
 from time import sleep
 
-from vendido import pedido_venda
+from sistema_vendas.ped_vend import pedido_venda
+from sistema_vendas.orcamento import orcar
 
 def vender():
 
 
-    with open('cadastro.json', 'r', encoding="utf-8") as arquivo:
+    with open('dados/cadastro.json', 'r', encoding="utf-8") as arquivo:
         vendedores = json.load(arquivo)
 
-    codigo = int(input("CODIGO DE VENDEDOR: "))
+    try:
+        codigo = int(input("CODIGO DE VENDEDOR: "))
+    except ValueError:
+        print("\n\033[91mPOR FAVOR COLOQUE O CODIGO DO VENDEDOR\033[0m")
+        return
+    
 
-    vendedor_encontrado= False
+    vendedor_encontrado = False
 
     for vendedor in vendedores["vendedores"]:
         if vendedor["CODIGO"] == codigo:
@@ -24,7 +30,7 @@ def vender():
             break
 
     if not vendedor_encontrado:
-        print("Vendendor não encontrado")
+        print("\n\033[31mVENDEDOR NÃO ENCONTRADO\033[0m")
         return
 
     while True:
@@ -40,7 +46,7 @@ def vender():
             pedido_venda(vendedor)
 
         elif selecao == "2":
-            print('')
+            orcar()
 
         elif selecao == "s": 
             return
